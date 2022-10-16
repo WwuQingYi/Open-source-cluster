@@ -7,30 +7,30 @@ hadoop
 	 HDFS   
 			   NameNode
 			   DataNode	
-			   			        DataNode	     SecondaryNameNode
-			   						             DataNode
+			   		    DataNode	    SecondaryNameNode
+			   				    DataNode
 	  YARN	   
 			   NodeManager	    ResourceManager
-				   			    NodeManager	
-				   						         NodeManager		   
+				   	    NodeManager	
+				   			    NodeManager		   
 -------------------------------
 zookeeper
 
-				服务器hadoop102	服务器hadoop103	服务器hadoop104
-				Zookeeper		  Zookeeper		    Zookeeper
+			   hadoop102	    hadoop103	     hadoop104
+			   Zookeeper	    Zookeeper	     Zookeeper
 
 -------------------------------
 kafka
 
-				hadoop102	    hadoop103	    hadoop104
-				kafka		    kafka		    kafka
+			   hadoop102	     hadoop103	    hadoop104
+			   √            	√             	√  
 
 --------------------------------
 flume
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-    		√               √
+    			√               	√
 ```
 
 -------------------------------
@@ -38,7 +38,7 @@ clickhouse
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-      		√            	√             	√  	     
+      			√            		√             	√  	     
 ```
 
 -------------------------------
@@ -46,7 +46,7 @@ hbase
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-      		√             	√             	√        
+      			√             		√             	√        
 ```
 
 -------------------------------
@@ -54,7 +54,7 @@ maxwell
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-      		√             	√             	√
+      			√             		√             	√
 ```
 
 -------------------------------
@@ -62,7 +62,7 @@ phoenix
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-      		√                            
+      			√                            
 ```
 
 -------------------------------
@@ -70,7 +70,7 @@ mysql
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-      		√                       
+      			√                       
 ```
 
 -------------------------------
@@ -78,7 +78,7 @@ flink
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-      		JobManager    	TaskManager   	TaskManager             
+      			JobManager    	    TaskManager     TaskManager             
 ```
 
 -------------------------------
@@ -86,7 +86,7 @@ redis
 
 ```
 			hadoop102	    hadoop103	    hadoop104
-      		√  
+      			√  
 ```
 
 ​      
